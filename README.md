@@ -28,3 +28,14 @@ git clone https://github.com/Rajil1213/astrovim.config ~/.config/nvim/lua/user
 ```shell
 nvim
 ```
+
+## Customizations
+
+Here are my customizations present in this config:
+
+- The theme is set to `catppuccin-mocha`.
+- `Neotest` has been configured with `rust`, `go` and `python`, and custom keybindings (from LazyVim).
+- LSPs have been added for `rust`, `python`, `go`, and `typescript`.
+- `ToggleTerm` keybinding has been remapped to `<leader>-\` which now opens the terminal horizontally.
+- Support for `rust`, `go` and `python` has been added to treesitter.
+- Color column has been set to `100` and wrapping has been enabled.
