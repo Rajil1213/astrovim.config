@@ -40,3 +40,4 @@ Here are my customizations present in this config:
 - Support for `rust`, `go` and `python` has been added to treesitter.
 - Color column has been set to `100` and wrapping has been enabled.
 - Floating commandline has been added by virtue of `noice-nvim` (from community).
+- `<esc><esc>` takes you into the normal mode in the terminal (mapped to `<C-\><C-n>`).
