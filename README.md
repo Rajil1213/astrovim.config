@@ -39,3 +39,4 @@ Here are my customizations present in this config:
 - `ToggleTerm` keybinding has been remapped to `<leader>-\` which now opens the terminal horizontally.
 - Support for `rust`, `go` and `python` has been added to treesitter.
 - Color column has been set to `100` and wrapping has been enabled.
+- Floating commandline has been added by virtue of `noice-nvim` (from community).
