@@ -36,8 +36,10 @@ Here are my customizations present in this config:
 - The theme is set to `catppuccin-mocha`.
 - `Neotest` has been configured with `rust`, `go` and `python`, and custom keybindings (from LazyVim).
 - LSPs have been added for `rust`, `python`, `go`, and `typescript`.
-- `ToggleTerm` keybinding has been remapped to `<leader>-\` which now opens the terminal horizontally.
+- `ToggleTerm` keybinding has been remapped to `<leader>-\` which now opens the terminal vertically.
 - Support for `rust`, `go` and `python` has been added to treesitter.
 - Color column has been set to `100` and wrapping has been enabled.
 - Floating commandline has been added by virtue of `noice-nvim` (from community).
 - `<esc><esc>` takes you into the normal mode in the terminal (mapped to `<C-\><C-n>`).
+- Increase size of the terminal to 100 (best for larger screens).
+- `U` to redo what has been undone with `u`.
