@@ -32,9 +32,10 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<leader>\\"] = { "<cmd>ToggleTerm direction=horizontal<cr>", desc = "Open toggleterm horizontally" },
   },
   t = {
     -- setting a mapping to false will disable it
-    -- ["<esc>"] = false,
+    ["<esc><esc>"] = { "<C-\\><C-n>", desc = "Go to Normal Mode" },
   },
 }
