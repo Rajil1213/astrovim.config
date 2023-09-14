@@ -109,4 +109,13 @@ return {
     optional = true,
     opts = { integrations = { neotest = true } },
   },
+  {
+    "hrsh7th/nvim-cmp",
+
+    opts = {
+      confirm_opts = {
+        select = true,
+      },
+    },
+  },
 }
