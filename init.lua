@@ -51,6 +51,17 @@ return {
     servers = {
       -- "pyright"
     },
+    config = {
+      rust_analyzer = {
+        settings = {
+          ["rust-analyzer"] = {
+            check = {
+              command = "clippy",
+            },
+          },
+        },
+      },
+    },
   },
 
   -- Configure require("lazy").setup() options
