@@ -43,3 +43,6 @@ Here are my customizations present in this config:
 - `<esc><esc>` takes you into the normal mode in the terminal (mapped to `<C-\><C-n>`).
 - Increase size of the terminal to 100 (best for larger screens).
 - `U` to redo what has been undone with `u`.
+- Add `markdown` pack.
+- Use `clippy` as the linter for `rust_analyzer`.
+- Add inlay hints to `JS`/`TS` in `tsserver`.
