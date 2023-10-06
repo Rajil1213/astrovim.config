@@ -73,6 +73,9 @@ return {
               includeInlayPropertyDeclarationTypeHints = true,
               includeInlayVariableTypeHints = false,
             },
+            format = {
+              insertSpaceAfterOpeningAndBeforeClosingEmptyBraces = false,
+            },
           },
 
           javascript = {
@@ -84,6 +87,9 @@ return {
               includeInlayParameterNameHintsWhenArgumentMatchesName = false,
               includeInlayPropertyDeclarationTypeHints = true,
               includeInlayVariableTypeHints = false,
+            },
+            format = {
+              insertSpaceAfterOpeningAndBeforeClosingEmptyBraces = false,
             },
           },
         },

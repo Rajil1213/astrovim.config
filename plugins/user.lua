@@ -11,7 +11,7 @@ return {
   -- },
   {
     "nvim-neotest/neotest",
-    ft = { "go", "rust", "python" },
+    ft = { "go", "rust", "python", "vitest" },
     dependencies = {
       "nvim-lua/plenary.nvim",
       "nvim-treesitter/nvim-treesitter",
@@ -19,6 +19,7 @@ return {
       "rouge8/neotest-rust",
       "nvim-neotest/neotest-go",
       "nvim-neotest/neotest-python",
+      "marilari88/neotest-vitest",
       {
         "folke/neodev.nvim",
         opts = function(_, opts)
@@ -41,6 +42,7 @@ return {
             args = { "--nocapture" },
           },
           require "neotest-python" {},
+          require "neotest-vitest" {},
         },
         status = { virtual_text = true },
         output = { open_on_run = true },
