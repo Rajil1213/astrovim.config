@@ -46,3 +46,5 @@ Here are my customizations present in this config:
 - Add `markdown` pack.
 - Use `clippy` as the linter for `rust_analyzer`.
 - Add inlay hints to `JS`/`TS` in `tsserver`.
+- Remove space from between empty braces in `JS/TS`.
+- Add vitest.
