@@ -50,7 +50,6 @@ Here are my customizations present in this config:
 - Add inlay hints to `JS`/`TS` in `tsserver`.
 - Remove space from between empty braces in `JS/TS`.
 - Add vitest.
-- Add space before function parenthesis in defintion in `JS/TS`, makes easier
   to find `function` definitions.
 - Add [`nvim-coverage`](https://github.com/andythigpen/nvim-coverage) to
   display coverage, and add keybindings for it, namespaced by `<leader>t`.
