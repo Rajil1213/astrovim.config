@@ -127,4 +127,38 @@ return {
       size = 100,
     },
   },
+  {
+    "andythigpen/nvim-coverage",
+    dependencies = { "nvim-lua/plenary.nvim" },
+
+    config = function()
+      require("coverage").setup {
+        commands = true,
+        highlights = {
+          -- customize highlight groups created by the plugin
+          covered = { fg = "#55CDA0" }, -- supports style, fg, bg, sp (see :h highlight-gui)
+          uncovered = { fg = "#F07178" },
+        },
+        signs = {
+          -- use your own highlight groups or text markers
+          covered = { hl = "CoverageCovered", text = "▎" },
+          uncovered = { hl = "CoverageUncovered", text = "▎" },
+        },
+        summary = {
+          -- customize the summary pop-up
+          min_coverage = 80.0, -- minimum coverage threshold (used for highlighting)
+        },
+        lang = {
+          -- customize language specific settings
+        },
+      }
+    end,
+
+    -- load when LSP is attached
+    event = { "LspAttach" },
+    keys = {
+      { "<leader>tC", "<cmd>Coverage<cr>", desc = "Show Coverage" },
+      { "<leader>tc", "<cmd>CoverageToggle<cr>", desc = "Toggle Coverage" },
+    },
+  },
 }
