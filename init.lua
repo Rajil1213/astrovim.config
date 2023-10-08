@@ -75,6 +75,7 @@ return {
             },
             format = {
               insertSpaceAfterOpeningAndBeforeClosingEmptyBraces = false,
+              insertSpaceBeforeFunctionParenthesis = true,
             },
           },
 
@@ -90,6 +91,7 @@ return {
             },
             format = {
               insertSpaceAfterOpeningAndBeforeClosingEmptyBraces = false,
+              insertSpaceBeforeFunctionParenthesis = true,
             },
           },
         },
