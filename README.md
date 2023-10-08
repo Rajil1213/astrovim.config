@@ -34,9 +34,11 @@ nvim
 Here are my customizations present in this config:
 
 - The theme is set to `catppuccin-mocha`.
-- `Neotest` has been configured with `rust`, `go` and `python`, and custom keybindings (from LazyVim).
+- `Neotest` has been configured with `rust`, `go` and `python`, and custom
+  keybindings (from LazyVim).
 - LSPs have been added for `rust`, `python`, `go`, and `typescript`.
-- `ToggleTerm` keybinding has been remapped to `<leader>-\` which now opens the terminal vertically.
+- `ToggleTerm` keybinding has been remapped to `<leader>-\` which now opens
+  the terminal vertically.
 - Support for `rust`, `go` and `python` has been added to treesitter.
 - Color column has been set to `100` and wrapping has been enabled.
 - Floating commandline has been added by virtue of `noice-nvim` (from community).
@@ -48,3 +50,5 @@ Here are my customizations present in this config:
 - Add inlay hints to `JS`/`TS` in `tsserver`.
 - Remove space from between empty braces in `JS/TS`.
 - Add vitest.
+- Add space before function parenthesis in defintion in `JS/TS`, makes easier
+  to find `function` definitions.
