@@ -161,4 +161,10 @@ return {
       { "<leader>tc", "<cmd>CoverageToggle<cr>", desc = "Toggle Coverage" },
     },
   },
+  {
+    "kylechui/nvim-surround",
+
+    config = function() require("nvim-surround").setup {} end,
+    event = { "User AstroFile" },
+  },
 }
