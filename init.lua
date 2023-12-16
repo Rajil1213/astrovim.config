@@ -72,7 +72,8 @@ return {
               includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
               includeInlayParameterNameHintsWhenArgumentMatchesName = false,
               includeInlayPropertyDeclarationTypeHints = true,
-              includeInlayVariableTypeHints = false,
+              includeInlayVariableTypeHints = true,
+              includeInlayVariableTypeHintsWhenTypeMatchesName = false,
               auto = false,
             },
             format = {
@@ -89,7 +90,8 @@ return {
               includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
               includeInlayParameterNameHintsWhenArgumentMatchesName = false,
               includeInlayPropertyDeclarationTypeHints = true,
-              includeInlayVariableTypeHints = false,
+              includeInlayVariableTypeHints = true,
+              includeInlayVariableTypeHintsWhenTypeMatchesName = false,
               auto = false,
             },
             format = {
