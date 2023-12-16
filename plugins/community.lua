@@ -17,6 +17,7 @@ return {
     "catppuccin",
     opts = {
       flavour = "mocha",
+      no_italic = true,
     },
   },
   {
