@@ -27,7 +27,6 @@ return {
         "golangci-lint",
         "markdownlint",
         "eslint_d",
-        "prettierd",
         "pylint",
         "gofumpt",
         "goimports",
