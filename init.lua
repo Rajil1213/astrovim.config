@@ -47,6 +47,7 @@ return {
         -- "lua_ls",
         "prettierd",
         "tsserver",
+        "volar",
       },
       timeout_ms = 1000, -- default format timeout
       -- filter = function(client) -- fully override the default formatting function
