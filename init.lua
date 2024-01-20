@@ -32,7 +32,11 @@ return {
       format_on_save = {
         enabled = true, -- enable or disable format on save globally
         allow_filetypes = { -- enable format on save for specified filetypes only
-          -- "go",
+          "go",
+          "rust",
+          "vue",
+          "typescript",
+          "javascript",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
@@ -41,6 +45,7 @@ return {
       disabled = { -- disable formatting capabilities for the listed language servers
         -- disable lua_ls formatting capability if you want to use StyLua to format your lua code
         -- "lua_ls",
+        "prettierd",
         "tsserver",
       },
       timeout_ms = 1000, -- default format timeout
@@ -58,6 +63,23 @@ return {
           ["rust-analyzer"] = {
             check = {
               command = "clippy",
+            },
+          },
+        },
+      },
+      vue = {
+        settings = {
+          vue = {
+            inlayHints = {
+              missingProps = true,
+              inlineHandlerLeading = true,
+              optionsWrapper = true,
+            },
+            autoInsert = {
+              dotValue = true,
+            },
+            takeOverMode = {
+              enabled = true,
             },
           },
         },
