@@ -65,6 +65,12 @@ return {
             check = {
               command = "clippy",
             },
+            inlayHints = {
+              enable = true,
+            },
+            diagnostics = {
+              enable = true,
+            }
           },
         },
       },
